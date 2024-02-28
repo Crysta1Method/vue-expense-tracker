@@ -82,7 +82,7 @@ const generateUniqueId = () => {
 
 //delete transaction
 const handleTransactionDeleted = (id) => {
-  transactions.value = transactions.value.filter((transaction) => 
+  transactions.value = transactions.value.filter((transactions) => 
  transactions.id !==id );
 
  saveTransactionsToLocalStorage();
@@ -99,3 +99,5 @@ const saveTransactionsToLocalStorage = () => {
 }
 
 </script>
+
+
